@@ -6,6 +6,8 @@ COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
 
 # wrangler
 RUN apk add nodejs npm
-RUN npm install @cloudflare/wrangler
+COPY ./package.json ./
+COPY ./package-lock.json ./
+RUN npm install --also=dev
 
-CMD nginx && npx wrangler dev
+CMD nginx && npx @cloudflare/wrangler dev

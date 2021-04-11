@@ -12,6 +12,6 @@ $ docker-compose exec app sh
 ```
 
 ```
-# npx wrangler login
-# npx wrangler publish
+# npx @cloudflare/wrangler login
+# npx @cloudflare/wrangler publish
 ```
