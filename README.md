@@ -1,5 +1,7 @@
 # Kireaji
 
+https://kireaji.s2terminal.workers.dev/
+
 ```bash
 $ docker-compose up --build
 ```
