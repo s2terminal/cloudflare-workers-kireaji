@@ -2,6 +2,8 @@
 
 https://kireaji.s2terminal.workers.dev/
 
+## Dev
+
 ```bash
 $ docker-compose up --build
 ```
@@ -17,3 +19,6 @@ $ docker-compose exec app sh
 # npx @cloudflare/wrangler login
 # npx @cloudflare/wrangler publish
 ```
+
+## 参考
+- [モンハン近接武器のダメージ計算を、どこよりも詳しく書いた！](https://bassy-mh.info/syuryoukihon-damegekeisan-kensi.html)
